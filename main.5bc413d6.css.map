@@ -1,0 +1,1 @@
+{"mappings":"ACAA,wBAGA","sources":["main.5bc413d6.css","src/main.css"],"sourcesContent":["* {\n  box-sizing: border-box;\n}\n\n.login-form {\n  margin-bottom: 100px;\n}\n\n/*# sourceMappingURL=main.5bc413d6.css.map */\n","* {\n  box-sizing: border-box;\n}\n.login-form {\n  margin-bottom: 100px;\n}\n"],"names":[],"version":3,"file":"main.5bc413d6.css.map"}

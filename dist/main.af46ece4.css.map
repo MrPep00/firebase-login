@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"main.af46ece4.css","sourceRoot":"..\\src","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n}\r\n.login-form {\r\n  margin-bottom: 100px;\r\n}\r\n"]}

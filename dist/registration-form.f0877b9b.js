@@ -15572,17 +15572,18 @@ registrationForm.addEventListener("submit", /*#__PURE__*/function () {
         case 8:
           userCredential = _context.sent;
           console.log(userCredential.user);
-          _context.next = 15;
+          alert("registration complete");
+          _context.next = 16;
           break;
-        case 12:
-          _context.prev = 12;
+        case 13:
+          _context.prev = 13;
           _context.t0 = _context["catch"](5);
           console.error(_context.t0);
-        case 15:
+        case 16:
         case "end":
           return _context.stop();
       }
-    }, _callee, null, [[5, 12]]);
+    }, _callee, null, [[5, 13]]);
   }));
   return function (_x) {
     return _ref.apply(this, arguments);
@@ -15613,7 +15614,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52132" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50412" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

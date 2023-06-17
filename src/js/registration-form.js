@@ -20,6 +20,7 @@ registrationForm.addEventListener("submit", async (e) => {
       password
     );
     console.log(userCredential.user);
+    alert("registration complete");
   } catch (error) {
     console.error(error);
   }

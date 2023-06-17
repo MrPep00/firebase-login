@@ -17,6 +17,7 @@ loginForm.addEventListener("submit", async (e) => {
     .then((userCredential) => {
       const user = userCredential.user;
       console.log(user);
+      alert("Login successfully");
     })
     .catch((error) => {
       const errorCode = error.code;

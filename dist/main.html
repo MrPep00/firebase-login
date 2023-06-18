@@ -8,17 +8,22 @@
   <script src="/main.af46ece4.js"></script></head>
   <body>
     <div class="container">
-      <form id="login-form">
+      <div class="choice-container">
+        <button id="login-btn">Login</button>
+        <button id="register-btn">Register</button>
+      </div>
+      <form id="login-form" class="hidden">
         <input type="email" id="email-input" placeholder="Email" required="">
         <input type="password" id="password-input" placeholder="Password" required="">
         <button type="submit">Login</button>
       </form>
-      <form id="registration-form">
+      <form id="registration-form" class="hidden">
         <input type="email" id="reg-email-input" placeholder="Email" required="">
         <input type="password" id="reg-password-input" placeholder="Password" required="">
         <button type="submit">Register</button>
       </form>
     </div>
+    <script src="/choosing-buttons.e73157e0.js"></script>
     <script src="/firebase-config.6beaa9e7.js"></script>
     <script src="/login-form.07136af1.js"></script>
     <script src="/registration-form.f0877b9b.js"></script>

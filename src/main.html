@@ -8,7 +8,11 @@
   </head>
   <body>
     <div class="container">
-      <form id="login-form">
+      <div class="choice-container">
+        <button id="login-btn">Login</button>
+        <button id="register-btn">Register</button>
+      </div>
+      <form id="login-form" class="hidden">
         <input type="email" id="email-input" placeholder="Email" required />
         <input
           type="password"
@@ -18,7 +22,7 @@
         />
         <button type="submit">Login</button>
       </form>
-      <form id="registration-form">
+      <form id="registration-form" class="hidden">
         <input type="email" id="reg-email-input" placeholder="Email" required />
         <input
           type="password"
@@ -29,6 +33,7 @@
         <button type="submit">Register</button>
       </form>
     </div>
+    <script src="./js/choosing-buttons.js"></script>
     <script src="./js/firebase-config.js"></script>
     <script src="./js/login-form.js"></script>
     <script src="./js/registration-form.js"></script>
